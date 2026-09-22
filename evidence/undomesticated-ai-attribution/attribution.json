@@ -1,0 +1,35 @@
+{
+  "artifact_type": "PUBLIC_ATTRIBUTION_RECEIPT",
+  "subject": "Undomesticated AI",
+  "attributed_to": "Garth Noel",
+  "claim": "\"Undomesticated AI\" is a named research concept and public research surface developed and publicly authored by Garth Noel, with a documented public publication record no later than 2026-05-04.",
+  "claim_state": "PUBLIC_ATTRIBUTION_SUPPORTED",
+  "earliest_public_record_located": {
+    "date": "2026-05-04",
+    "title": "What Is Undomesticated AI?",
+    "author": "Garth Noel",
+    "url": "https://www.linkedin.com/pulse/what-undomesticated-ai-garth-noel-kagse"
+  },
+  "supporting_public_surfaces": [
+    "https://undomesticatedai.com/",
+    "https://undomesticatedai.com/about/",
+    "https://github.com/DrBlacks-lab/undomesticatedai.com"
+  ],
+  "repository_origin_record": {
+    "date": "2026-08-16T14:40:00Z",
+    "commit": "419db79a5d927201d74f317b6a5b196fd567a7f2",
+    "message": "Initialize Undomesticated AI public-surface boundary"
+  },
+  "search_check": {
+    "date": "2026-09-22",
+    "result": "No conflicting earlier exact-phrase attribution surfaced in the bounded public-web search performed for this receipt.",
+    "limitation": "Web search is not exhaustive prior-art, authorship, or trademark clearance."
+  },
+  "explicit_non_claims": [
+    "This receipt does not establish exclusive trademark rights.",
+    "This receipt does not establish ownership of every use of the words undomesticated and AI.",
+    "This receipt does not prove that no earlier use of the exact phrase exists outside the searched public record.",
+    "Search-engine AI summaries are not treated as primary authority for attribution."
+  ],
+  "generated_on": "2026-09-22"
+}
