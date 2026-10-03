@@ -13,7 +13,10 @@
   "supporting_public_surfaces": [
     "https://undomesticatedai.com/",
     "https://undomesticatedai.com/about/",
-    "https://github.com/DrBlacks-lab/undomesticatedai.com"
+    "https://undomesticatedai.com/identity/",
+    "https://github.com/DrBlacks-lab/undomesticatedai.com",
+    "https://ennisai.substack.com/",
+    "https://www.tiktok.com/@undomesticatedai"
   ],
   "repository_origin_record": {
     "date": "2026-08-16T14:40:00Z",
@@ -31,5 +34,6 @@
     "This receipt does not prove that no earlier use of the exact phrase exists outside the searched public record.",
     "Search-engine AI summaries are not treated as primary authority for attribution."
   ],
-  "generated_on": "2026-09-22"
+  "generated_on": "2026-10-03",
+  "identity_registry": "https://undomesticatedai.com/identity/"
 }
