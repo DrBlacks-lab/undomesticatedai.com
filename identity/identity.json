@@ -1,0 +1,25 @@
+{
+  "artifact_type": "OFFICIAL_IDENTITY_REGISTRY",
+  "subject": "Undomesticated AI",
+  "canonical_domain": "https://undomesticatedai.com/",
+  "preferred_handle": "undomesticatedai",
+  "attributed_to": "Garth Noel",
+  "attribution_record": "https://undomesticatedai.com/evidence/undomesticated-ai-attribution/",
+  "official_surfaces": [
+    {"type":"website","url":"https://undomesticatedai.com/","status":"OFFICIAL"},
+    {"type":"source_repository","url":"https://github.com/DrBlacks-lab/undomesticatedai.com","status":"OFFICIAL"},
+    {"type":"publication","provider":"Substack","url":"https://ennisai.substack.com/","status":"OFFICIAL"},
+    {"type":"social","provider":"TikTok","handle":"@undomesticatedai","url":"https://www.tiktok.com/@undomesticatedai","status":"OFFICIAL"},
+    {"type":"founder_profile","provider":"LinkedIn","url":"https://www.linkedin.com/in/garth-noel-a686443/","status":"ATTRIBUTION_ANCHOR"}
+  ],
+  "pending_normalization": [
+    {"provider":"Facebook","name":"Undomesticated AI","status":"FOUNDER_CONTROL_CONFIRMED_PUBLIC_URL_PENDING"}
+  ],
+  "verification_rule": "Treat a surface as official only when it is listed here or bound by a published first-party attribution record.",
+  "explicit_non_claims": [
+    "This registry does not establish trademark rights.",
+    "This registry does not establish ownership of every use of the words undomesticated and AI.",
+    "This registry does not authorize displacement of an existing third-party account."
+  ],
+  "generated_on": "2026-10-03"
+}
