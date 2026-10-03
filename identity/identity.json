@@ -10,6 +10,7 @@
     {"type":"source_repository","url":"https://github.com/DrBlacks-lab/undomesticatedai.com","status":"OFFICIAL"},
     {"type":"publication","provider":"Substack","url":"https://ennisai.substack.com/","status":"OFFICIAL"},
     {"type":"social","provider":"TikTok","handle":"@undomesticatedai","url":"https://www.tiktok.com/@undomesticatedai","status":"OFFICIAL"},
+    {"type":"agent_social","provider":"Moltbook","handle":"u/undomesticatedai","url":"https://moltbook.com/u/undomesticatedai","status":"OFFICIAL"},
     {"type":"founder_profile","provider":"LinkedIn","url":"https://www.linkedin.com/in/garth-noel-a686443/","status":"ATTRIBUTION_ANCHOR"}
   ],
   "pending_normalization": [
