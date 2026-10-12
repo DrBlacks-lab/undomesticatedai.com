@@ -13,6 +13,9 @@
     {"type":"agent_social","provider":"Moltbook","handle":"u/undomesticatedai","url":"https://moltbook.com/u/undomesticatedai","status":"OFFICIAL"},
     {"type":"founder_profile","provider":"LinkedIn","url":"https://www.linkedin.com/in/garth-noel-a686443/","status":"ATTRIBUTION_ANCHOR"}
   ],
+  "sibling_identities": [
+    {"name":"ANANS","canonical_domain":"https://www.anansai.org/","relationship":"SIBLING_RESEARCH_AND_BUILD_PROGRAMME","founder":"Garth Noel","description":"A separate research-and-build programme for development, testing, and practical applications; not an alternate identity for Undomesticated AI."}
+  ],
   "pending_normalization": [
     {"provider":"Facebook","name":"Undomesticated AI","status":"FOUNDER_CONTROL_CONFIRMED_PUBLIC_URL_PENDING"}
   ],
@@ -22,5 +25,5 @@
     "This registry does not establish ownership of every use of the words undomesticated and AI.",
     "This registry does not authorize displacement of an existing third-party account."
   ],
-  "generated_on": "2026-10-03"
+  "generated_on": "2026-10-12"
 }
