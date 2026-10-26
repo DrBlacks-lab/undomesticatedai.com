@@ -1,0 +1,64 @@
+{
+  "schema": "udai.armo-preparation.local-validation.v0.1",
+  "generated_utc": "2026-10-26T19:12:33.342894+00:00",
+  "status": "IMPLEMENTED_AND_LOCALLY_VALIDATED_DETERMINISTIC_CHECKS__REAL_SOURCE_BINDING_HOLD__BROWSER_INTERACTION_UNVERIFIED",
+  "base_commit": "1f8771cdb56b9d8e9402aca4ec0c4742a263f6a1",
+  "cea_selection": {
+    "version": "v5",
+    "authority_basis": "Founder directive in current conversation, 2026-10-26",
+    "canonical_byte_binding": "MISSING",
+    "taxonomy_binding": "MISSING"
+  },
+  "validation": {
+    "command": "node --test --test-reporter=tap tests/*.test.mjs",
+    "exit_code": 0,
+    "tests": 52,
+    "passed": 52,
+    "failed": 0,
+    "skipped": 0,
+    "fixture_scope": "Explicitly synthetic procedure/taxonomy; no CEA semantics tested",
+    "page_state_test_environment": "Minimal Node DOM adapter, not browser",
+    "syntax_checks": [
+      "lens/app.js",
+      "lens/core.js",
+      "scripts/serve.mjs"
+    ],
+    "local_link_checks": {
+      "pages": [
+        "index.html",
+        "lens/index.html"
+      ],
+      "references_checked": 31,
+      "failed": 0
+    },
+    "git_diff_check": "PASS",
+    "browser": {
+      "layout": "RENDERED_AND_VISUALLY_REVIEWED",
+      "module_startup": "UNVERIFIED_STUCK_AT_LOADING_REGISTRY",
+      "direct_script_navigation": "ERR_BLOCKED_BY_CLIENT",
+      "root_cause": "UNRESOLVED",
+      "file_import_compile_download_review": "NOT_VERIFIED"
+    }
+  },
+  "source_recovery": {
+    "known_folder_read": "v3.2 and v4.1 returned; no v5 file in that folder",
+    "broad_filename_search": "TERMINATED_WITHOUT_OUTPUT_INCOMPLETE",
+    "absence_claim": false
+  },
+  "source_manifest_sha256": "c452a929f7083449f6a001f3f54f0ed0f88cba0eccf1a2ef61899829f433e34d",
+  "test_output_sha256": "8ce7004f256ce8db6c186ff644d0a0c03df3617664ee3c3e401fd9c86cde0f13",
+  "authority_delta": 0,
+  "model_or_provider_calls_by_implementation": 0,
+  "spend_usd": 0,
+  "runtime_connections": 0,
+  "deployment_performed": false,
+  "merge_performed": false,
+  "independent_validation": false,
+  "limitations": [
+    "Exact CEA v5 bytes not recovered or applied. Version selection alone does not supply missing text.",
+    "No authenticated identity or evaluator independence.",
+    "Typed field invariants do not establish semantic correctness or honesty of resource reports.",
+    "No comparative efficacy, AEL gain, RSI or ARMO operational readiness demonstrated.",
+    "No public CEA source release or runtime authority."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "udai.protocol-registry.v1",
+  "revision": "2026-10-26.1",
+  "selection": {"cea_version": "v5", "status": "CANONICAL_BY_FOUNDER_DIRECTIVE", "directive_date": "2026-10-26"},
+  "binding_status": "HOLD_SOURCE_BYTES_UNBOUND",
+  "cea": {"version": "v5", "sha256": null, "source_ref": null},
+  "taxonomy": {"version": null, "namespace": null, "sha256": null, "source_ref": null},
+  "valid_until": null,
+  "execution_enabled": false,
+  "authority_delta": 0,
+  "note": "Version selection is settled. Exact bytes and taxonomy binding remain separate dependencies. No draft is substituted for v5. Local imports never upload protocol or subject text."
+}

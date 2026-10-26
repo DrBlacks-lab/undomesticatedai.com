@@ -1,0 +1,322 @@
+TAP version 13
+# Subtest: default UI reaches binding HOLD with compilation disabled
+ok 1 - default UI reaches binding HOLD with compilation disabled
+  ---
+  duration_ms: 1.171224
+  type: 'test'
+  ...
+# Subtest: local imports compile; reviewed response checks; edits invalidate stale artifacts
+ok 2 - local imports compile; reviewed response checks; edits invalidate stale artifacts
+  ---
+  duration_ms: 13.196682
+  type: 'test'
+  ...
+# Subtest: bad replacement registry revokes prior readiness
+ok 3 - bad replacement registry revokes prior readiness
+  ---
+  duration_ms: 0.549578
+  type: 'test'
+  ...
+# Subtest: default registry preserves v5 selection and fails closed without source custody
+ok 4 - default registry preserves v5 selection and fails closed without source custody
+  ---
+  duration_ms: 12.939354
+  type: 'test'
+  ...
+# Subtest: matching raw bytes compile with CRLF preserved and no authority granted
+ok 5 - matching raw bytes compile with CRLF preserved and no authority granted
+  ---
+  duration_ms: 1.548895
+  type: 'test'
+  ...
+# Subtest: BOM is preserved through byte binding and embedding
+ok 6 - BOM is preserved through byte binding and embedding
+  ---
+  duration_ms: 3.168936
+  type: 'test'
+  ...
+# Subtest: a positive review result never admits execution
+ok 7 - a positive review result never admits execution
+  ---
+  duration_ms: 1.613617
+  type: 'test'
+  ...
+# Subtest: mode ANALYZE allows non-effectful preparation without blanket hold
+ok 8 - mode ANALYZE allows non-effectful preparation without blanket hold
+  ---
+  duration_ms: 4.408372
+  type: 'test'
+  ...
+# Subtest: mode PREPARE allows non-effectful preparation without blanket hold
+ok 9 - mode PREPARE allows non-effectful preparation without blanket hold
+  ---
+  duration_ms: 1.106157
+  type: 'test'
+  ...
+# Subtest: mode LOCAL_BUILD allows non-effectful preparation without blanket hold
+ok 10 - mode LOCAL_BUILD allows non-effectful preparation without blanket hold
+  ---
+  duration_ms: 1.176481
+  type: 'test'
+  ...
+# Subtest: mode TEST allows non-effectful preparation without blanket hold
+ok 11 - mode TEST allows non-effectful preparation without blanket hold
+  ---
+  duration_ms: 1.391241
+  type: 'test'
+  ...
+# Subtest: mode CONSEQUENTIAL_ACTION allows non-effectful preparation without blanket hold
+ok 12 - mode CONSEQUENTIAL_ACTION allows non-effectful preparation without blanket hold
+  ---
+  duration_ms: 1.172314
+  type: 'test'
+  ...
+# Subtest: rejects wrong source hash
+ok 13 - rejects wrong source hash
+  ---
+  duration_ms: 0.98781
+  type: 'test'
+  ...
+# Subtest: rejects missing binding
+ok 14 - rejects missing binding
+  ---
+  duration_ms: 0.646852
+  type: 'test'
+  ...
+# Subtest: rejects extra source binding
+ok 15 - rejects extra source binding
+  ---
+  duration_ms: 1.453594
+  type: 'test'
+  ...
+# Subtest: rejects taxonomy namespace collision
+ok 16 - rejects taxonomy namespace collision
+  ---
+  duration_ms: 0.797858
+  type: 'test'
+  ...
+# Subtest: rejects wrong capsule hash
+ok 17 - rejects wrong capsule hash
+  ---
+  duration_ms: 0.51751
+  type: 'test'
+  ...
+# Subtest: rejects replayed run identity
+ok 18 - rejects replayed run identity
+  ---
+  duration_ms: 1.143582
+  type: 'test'
+  ...
+# Subtest: rejects mode escalation
+ok 19 - rejects mode escalation
+  ---
+  duration_ms: 1.027319
+  type: 'test'
+  ...
+# Subtest: rejects worker as evaluator
+ok 20 - rejects worker as evaluator
+  ---
+  duration_ms: 2.443246
+  type: 'test'
+  ...
+# Subtest: rejects wrong actor
+ok 21 - rejects wrong actor
+  ---
+  duration_ms: 0.696967
+  type: 'test'
+  ...
+# Subtest: rejects unknown state
+ok 22 - rejects unknown state
+  ---
+  duration_ms: 0.828302
+  type: 'test'
+  ...
+# Subtest: rejects bare state without claim
+ok 23 - rejects bare state without claim
+  ---
+  duration_ms: 1.758567
+  type: 'test'
+  ...
+# Subtest: rejects missing adverse evidence field
+ok 24 - rejects missing adverse evidence field
+  ---
+  duration_ms: 0.629948
+  type: 'test'
+  ...
+# Subtest: rejects malformed evidence
+ok 25 - rejects malformed evidence
+  ---
+  duration_ms: 0.472063
+  type: 'test'
+  ...
+# Subtest: rejects no controlling evidence for PASS
+ok 26 - rejects no controlling evidence for PASS
+  ---
+  duration_ms: 0.530079
+  type: 'test'
+  ...
+# Subtest: rejects no falsifier for PASS
+ok 27 - rejects no falsifier for PASS
+  ---
+  duration_ms: 0.554846
+  type: 'test'
+  ...
+# Subtest: rejects authority widening
+ok 28 - rejects authority widening
+  ---
+  duration_ms: 0.524471
+  type: 'test'
+  ...
+# Subtest: rejects self-authorized grant
+ok 29 - rejects self-authorized grant
+  ---
+  duration_ms: 0.540314
+  type: 'test'
+  ...
+# Subtest: rejects hidden authority claim
+ok 30 - rejects hidden authority claim
+  ---
+  duration_ms: 2.853877
+  type: 'test'
+  ...
+# Subtest: rejects step overrun
+ok 31 - rejects step overrun
+  ---
+  duration_ms: 0.9343
+  type: 'test'
+  ...
+# Subtest: rejects fractional steps
+ok 32 - rejects fractional steps
+  ---
+  duration_ms: 0.771769
+  type: 'test'
+  ...
+# Subtest: rejects negative steps
+ok 33 - rejects negative steps
+  ---
+  duration_ms: 0.539683
+  type: 'test'
+  ...
+# Subtest: rejects provider call
+ok 34 - rejects provider call
+  ---
+  duration_ms: 0.619562
+  type: 'test'
+  ...
+# Subtest: rejects spend
+ok 35 - rejects spend
+  ---
+  duration_ms: 1.026242
+  type: 'test'
+  ...
+# Subtest: rejects external effect
+ok 36 - rejects external effect
+  ---
+  duration_ms: 0.415499
+  type: 'test'
+  ...
+# Subtest: rejects effectful next action
+ok 37 - rejects effectful next action
+  ---
+  duration_ms: 2.644837
+  type: 'test'
+  ...
+# Subtest: rejects extra envelope instruction
+ok 38 - rejects extra envelope instruction
+  ---
+  duration_ms: 7.319785
+  type: 'test'
+  ...
+# Subtest: rejects blank analysis
+ok 39 - rejects blank analysis
+  ---
+  duration_ms: 0.888342
+  type: 'test'
+  ...
+# Subtest: rejects no nonclaims
+ok 40 - rejects no nonclaims
+  ---
+  duration_ms: 0.811107
+  type: 'test'
+  ...
+# Subtest: rejects fabricated status
+ok 41 - rejects fabricated status
+  ---
+  duration_ms: 0.9944
+  type: 'test'
+  ...
+# Subtest: rejects missing budget field
+ok 42 - rejects missing budget field
+  ---
+  duration_ms: 2.407183
+  type: 'test'
+  ...
+# Subtest: consequential PASS fails even with all structural fields
+ok 43 - consequential PASS fails even with all structural fields
+  ---
+  duration_ms: 1.280165
+  type: 'test'
+  ...
+# Subtest: invalid and expired registries fail closed at compile and validation
+ok 44 - invalid and expired registries fail closed at compile and validation
+  ---
+  duration_ms: 4.983693
+  type: 'test'
+  ...
+# Subtest: modified registry invalidates a previous capsule
+ok 45 - modified registry invalidates a previous capsule
+  ---
+  duration_ms: 0.855233
+  type: 'test'
+  ...
+# Subtest: registry metadata changes cannot hide behind an unchanged revision
+ok 46 - registry metadata changes cannot hide behind an unchanged revision
+  ---
+  duration_ms: 3.448758
+  type: 'test'
+  ...
+# Subtest: tampered expected capsule fails digest consistency
+ok 47 - tampered expected capsule fails digest consistency
+  ---
+  duration_ms: 0.61777
+  type: 'test'
+  ...
+# Subtest: untrusted subject remains a data string and cannot override the contract
+ok 48 - untrusted subject remains a data string and cannot override the contract
+  ---
+  duration_ms: 1.966056
+  type: 'test'
+  ...
+# Subtest: one byte mismatch, empty file, bad UTF-8 and oversized file stop binding
+ok 49 - one byte mismatch, empty file, bad UTF-8 and oversized file stop binding
+  ---
+  duration_ms: 1.571609
+  type: 'test'
+  ...
+# Subtest: invalid modes, identical roles, bad IDs and budgets stop compilation
+ok 50 - invalid modes, identical roles, bad IDs and budgets stop compilation
+  ---
+  duration_ms: 2.557186
+  type: 'test'
+  ...
+# Subtest: template is deliberately not a complete review
+ok 51 - template is deliberately not a complete review
+  ---
+  duration_ms: 0.908382
+  type: 'test'
+  ...
+# Subtest: malformed envelopes and context return INVALID
+ok 52 - malformed envelopes and context return INVALID
+  ---
+  duration_ms: 1.421907
+  type: 'test'
+  ...
+1..52
+# tests 52
+# suites 0
+# pass 52
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 211.1103
