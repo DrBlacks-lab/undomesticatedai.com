@@ -1,0 +1,152 @@
+{
+  "schema": "udai.source-manifest.v0.1",
+  "base_commit": "1f8771cdb56b9d8e9402aca4ec0c4742a263f6a1",
+  "hash_scope": "All tracked and candidate source files excluding this evidence directory to avoid recursive digest dependencies.",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "404.html",
+      "sha256": "c972c231fe63a6a4a5964d56aca613ed9ec1d949e2df19dd5795a2892e656b5b",
+      "size_bytes": 991
+    },
+    {
+      "path": "CNAME",
+      "sha256": "7957ea94571eb8433d17bd0980dede73be58cbfae17113b3c2e73bdaecb2beb0",
+      "size_bytes": 21
+    },
+    {
+      "path": "README.md",
+      "sha256": "ee4b04be1275e75377615cfac2fd58d38bb39bcc7709e70ca0020ec3d5cf2061",
+      "size_bytes": 1952
+    },
+    {
+      "path": "about/index.html",
+      "sha256": "f6d118d55ff6bdb395206472ae4ceaeddcde7d4a74a7491ebcf156330b37e185",
+      "size_bytes": 4100
+    },
+    {
+      "path": "docs/ARMO_PREPARATION.md",
+      "sha256": "c207ae951a64866cc0edcb0dd62869f14262f596c4c5d3507cf2df2e07e84496",
+      "size_bytes": 8157
+    },
+    {
+      "path": "essays/ai-hallucinates-facts-humans-hallucinate-authority/index.html",
+      "sha256": "04873cd5947ed25960fdb0327ff0767ed945f6e3cb635aaaa82b67aabe2d2d68",
+      "size_bytes": 11830
+    },
+    {
+      "path": "essays/index.html",
+      "sha256": "9c4bb221c2afad5ac330e3376fb268eaea962507be150b9ebaa727c21eaa8c2b",
+      "size_bytes": 3062
+    },
+    {
+      "path": "evidence/index.html",
+      "sha256": "c7f5e0706f4231633983252949cc85f5cf356c26087bcec9028965652a9b6f8f",
+      "size_bytes": 4176
+    },
+    {
+      "path": "evidence/undomesticated-ai-attribution/attribution.json",
+      "sha256": "7c2902526e83d6bf468d235d1384554b472bfdff13e4fbe37777c32aa576a056",
+      "size_bytes": 1892
+    },
+    {
+      "path": "evidence/undomesticated-ai-attribution/index.html",
+      "sha256": "0ffc7bba05f2edef802e709d47c47abaf13767324f230e99cbf15dd916b61ad6",
+      "size_bytes": 7639
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "0450172b6188b6b4cdaf0c28d5a1182c6bcfcd26f26a2b5ee0c2b38cf504ff93",
+      "size_bytes": 258
+    },
+    {
+      "path": "identity/identity.json",
+      "sha256": "201861e035fa8ff306de840f1ba3086e08673c9d76b33936697283733dd057d8",
+      "size_bytes": 2002
+    },
+    {
+      "path": "identity/index.html",
+      "sha256": "d83840de6e3e787c2a35427c662b2aceafabc47be0e7c49256e764c84a42dc1b",
+      "size_bytes": 5740
+    },
+    {
+      "path": "index.html",
+      "sha256": "d6515a2043d0b2b02fd7e64791bf5c8de6d047228c4182d6aac1624882a66a8f",
+      "size_bytes": 8688
+    },
+    {
+      "path": "lens/app.js",
+      "sha256": "8bd26d7e81a9d13265c680a1680794cce0ea75d3c8f71838aaa11363a55ba895",
+      "size_bytes": 4348
+    },
+    {
+      "path": "lens/core.js",
+      "sha256": "ec24b01c85e3b9847fa62aeb06d05319b469b6465ac6ad9da6da789d29749fe3",
+      "size_bytes": 11082
+    },
+    {
+      "path": "lens/index.html",
+      "sha256": "c8a808331e5bef711c3ac4d0f79baea07391a05f67479481150ea3db709fad73",
+      "size_bytes": 6449
+    },
+    {
+      "path": "lens/lens.css",
+      "sha256": "f888e0ab146beb44a98ddc19654d7873bccd810bf265c935c2b1e483b8631dfe",
+      "size_bytes": 1355
+    },
+    {
+      "path": "notes/index.html",
+      "sha256": "9b97c9a8e79655651563ec5dab1c97f1662b95274fa689802f59ed16b416086b",
+      "size_bytes": 3958
+    },
+    {
+      "path": "package.json",
+      "sha256": "af7c1dfedd8a3875c7aaa47b0c710d2a661b7bcddcbdf97016f6702f4e5aea00",
+      "size_bytes": 178
+    },
+    {
+      "path": "protocol/manifest-v1.json",
+      "sha256": "68d34e09740796f54f6eb2e18854a5aa0c04f18bc97114b6784a664d484b80c1",
+      "size_bytes": 657
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "f31cf3f7d5beec6fec55dfb7fff50c5f58392339209bea87db0d2c806461f7ec",
+      "size_bytes": 74
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "sha256": "748ef099d72dc54146ee0e3ab5edd04807f35d8b4b3b8d86f1b03934448aacad",
+      "size_bytes": 1358
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "75564d2c3f89c35c4bfab60b0ac96fa565e0809ba51ba0f13ce097ae0ad6e1e2",
+      "size_bytes": 735
+    },
+    {
+      "path": "style.css",
+      "sha256": "3d8aef218b6f3055dac6ceb05d74e5312b3f9039f9722ace690842e5da60cbcc",
+      "size_bytes": 6775
+    },
+    {
+      "path": "tests/app-state.test.mjs",
+      "sha256": "89b67abdd61910ca912ecbcc80a5892a2075060d058762ce6728a274d8fa6579",
+      "size_bytes": 3792
+    },
+    {
+      "path": "tests/lens.test.mjs",
+      "sha256": "8509733ce36227ffaf1b2d21cd1aa0015db8c633bb3bce9cb33d0c867e2bf34d",
+      "size_bytes": 9689
+    },
+    {
+      "path": "wiki/index.html",
+      "sha256": "0f1fa8799307b2aee09a5f1b35e5612c56ffea2856591f022fc0a59c4e4dc5fc",
+      "size_bytes": 13144
+    }
+  ]
+}

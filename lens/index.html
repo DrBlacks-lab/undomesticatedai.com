@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'none'; img-src 'self'; style-src 'self'; connect-src 'self'; font-src 'self'; script-src 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="no-referrer"><meta name="robots" content="noindex">
+<title>CEA Lens · ARMO preparation — Undomesticated AI</title>
+<meta name="description" content="Local preparation and structural receipt checks for bounded ARMO task review. No task execution or model calls.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="lens.css">
+<script type="module" src="app.js"></script></head><body>
+<header class="mast wrap"><div class="toprule"></div><div class="mastrow"><a class="brand" href="../">Undomesticated AI</a><nav class="nav" aria-label="Primary"><a href="../evidence/">Evidence</a><a href="../about/">Boundary</a><a href="./" aria-current="page">CEA Lens</a></nav></div></header>
+<main><div class="pagehero wrap"><p class="kicker">ARMO / preparation and review / development candidate</p><h1>Prepare. Bind. <em>Inspect.</em></h1><p>CEA Lens prepares source-bound work for review in the ANANS Autonomous RSI Machine Organization (ARMO) trajectory. The worker can propose; this page cannot admit or execute an operation.</p><div class="steps"><span>01 Bind sources</span><span>02 Prepare work</span><span>03 Check receipt</span></div></div>
+<div class="workbench wrap">
+<p class="status" id="binding" role="status" aria-live="polite">HOLD — Loading registry.</p>
+<noscript><p class="status">JavaScript is required for local hash checking. No capsule can be compiled here with scripts disabled.</p></noscript>
+<div id="inputs"><section aria-labelledby="sources"><h2 id="sources">01 / Bind CEA v5 and taxonomy</h2>
+<p>CEA v5 is the selected canonical version by Founder directive. Byte binding is a separate step. Missing or mismatched source bindings hold compilation.</p>
+<p class="hint">Select local files. Only the default registry is fetched from this site. Imported files, subject text and responses remain in page memory. Exported capsules contain the full imported text: review them before sharing.</p>
+<label for="registryFile">Reviewed registry JSON (optional replacement)</label><input id="registryFile" type="file" accept=".json,application/json">
+<div class="fields"><div><label for="ceaFile">Exact CEA v5 UTF-8 file</label><input id="ceaFile" type="file" accept=".md,.txt,.json"></div><div><label for="taxonomyFile">Separately bound taxonomy UTF-8 file</label><input id="taxonomyFile" type="file" accept=".md,.txt,.json"></div></div>
+<details><summary>What a digest establishes</summary><p>A matching SHA-256 establishes consistency with the selected registry. It does not authenticate the registry's author, prove canonical custody, or establish release permission. A locally replaced registry remains operator-supplied material requiring external review. Distinct role identifiers do not prove evaluator independence.</p></details>
+<p><a href="../protocol/manifest-v1.json">Inspect default registry</a> · <a href="../docs/ARMO_PREPARATION.md">Read implementation and boundaries</a></p></section>
+<section aria-labelledby="task"><h2 id="task">02 / Prepare a bounded task</h2>
+<div class="fields"><div><label for="runId">Unique run ID</label><input id="runId" value="udai-review-001" maxlength="128"></div><div><label for="mode">Request mode</label><select id="mode"><option>ANALYZE</option><option>PREPARE</option><option>LOCAL_BUILD</option><option>TEST</option><option>CONSEQUENTIAL_ACTION</option></select></div><div><label for="workerId">Worker ID</label><input id="workerId" value="worker-01" maxlength="128"></div><div><label for="evaluatorId">Evaluator ID</label><input id="evaluatorId" value="reviewer-01" maxlength="128"></div><div><label for="steps">Maximum proposed steps (1–100)</label><input id="steps" type="number" min="1" max="100" value="10"></div></div>
+<label for="subject">Subject data / task and candidate evidence</label><textarea id="subject" placeholder="State the objective, existing equivalent work, controlling and adverse evidence, missing primitives, falsifiers and terminal conditions."></textarea>
+<p class="hint">All modes prepare text only. Provider calls, spend and external effects are fixed at zero. Consequential requests must return HOLD, REJECT or NOT_SUFFICIENTLY_FORMED; useful analysis can continue.</p>
+<button id="compile" type="button" disabled>Compile locally</button></section></div>
+<section aria-labelledby="capsuleTitle"><h2 id="capsuleTitle">Capsule and response template</h2><label for="capsule">Bound capsule JSON</label><textarea id="capsule" readonly aria-label="Bound capsule JSON"></textarea><button id="download" type="button" disabled>Download capsule</button>
+<details><summary>Review-envelope template</summary><label for="template">Fill with actual findings; the blank template fails validation</label><textarea id="template" readonly></textarea></details></section>
+<section aria-labelledby="review"><h2 id="review">03 / Inspect the returned receipt</h2><p>Checks exact capsule and source bindings, declared state labels, role identifiers, resource limits and zero authority expansion. Resource values are self-reported. Semantic truth, actor identity and evaluator independence remain unverified.</p>
+<label for="response">Returned review envelope JSON</label><textarea id="response" placeholder="Paste the returned JSON envelope."></textarea><button id="validate" type="button" disabled>Check structure and bindings</button><pre id="result" role="status" aria-live="polite">No current review result.</pre></section>
+<section><h2>Operational frontier</h2><p>This candidate implements local preparation and structural checking. It has no connection to the ANANS BOARD, runtime, private evidence store, provider accounts or actuators. There is no scheduler, autonomous model loop, operational admission, promotion or deployment control here. A structurally valid receipt is review input.</p></section>
+</div></main><footer class="footer wrap"><div class="footergrid"><span>UNDOMESTICATED AI · CEA LENS CANDIDATE</span><a href="../">Research surface</a></div></footer></body></html>

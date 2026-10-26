@@ -24,3 +24,9 @@ ANANS may appear here as an ongoing research-and-build programme through which p
 Static HTML on GitHub Pages. No framework, CMS, database, analytics dependency, or source coupling to ANANS is required for the initial surface.
 
 Domain target: `undomesticatedai.com`
+
+## CEA Lens development candidate
+
+`lens/` adds browser-local, source-bound task preparation and structural receipt checking toward the ARMO trajectory. CEA v5 is selected canonical by Founder directive. The default registry holds until exact v5 and separately versioned taxonomy bytes are bound; no canonical text is reconstructed or published here.
+
+Run `npm test` for deterministic synthetic conformance checks; `npm run dev` serves the local candidate. See [implementation and limits](docs/ARMO_PREPARATION.md). This branch does not connect to or execute ANANS runtime operations, admit candidates, call providers, merge or deploy itself.
