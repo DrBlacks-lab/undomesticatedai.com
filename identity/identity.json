@@ -10,6 +10,7 @@
     {"type":"source_repository","url":"https://github.com/DrBlacks-lab/undomesticatedai.com","status":"OFFICIAL"},
     {"type":"publication","provider":"Substack","url":"https://undomesticatedai.substack.com/","status":"OFFICIAL"},
     {"type":"social","provider":"YouTube","handle":"@UndomesticatedAI","url":"https://www.youtube.com/@UndomesticatedAI","status":"OFFICIAL"},
+    {"type":"social","provider":"Facebook","name":"Undomesticated AI","url":"https://www.facebook.com/UndomesticatedAI","status":"OFFICIAL"},
     {"type":"social","provider":"X","handle":"@UndomesticAI","url":"https://x.com/UndomesticAI","status":"OFFICIAL"},
     {"type":"community","provider":"Reddit","handle":"r/Undomesticated_AI","url":"https://www.reddit.com/r/Undomesticated_AI/","status":"OFFICIAL"},
     {"type":"social","provider":"TikTok","handle":"@undomesticatedai","url":"https://www.tiktok.com/@undomesticatedai","status":"OFFICIAL"},
@@ -18,9 +19,6 @@
   ],
   "sibling_identities": [
     {"name":"ANANS","canonical_domain":"https://www.anansai.org/","relationship":"SIBLING_RESEARCH_AND_BUILD_PROGRAMME","founder":"Garth Noel","description":"A separate research-and-build programme for development, testing, and practical applications; not an alternate identity for Undomesticated AI."}
-  ],
-  "pending_normalization": [
-    {"provider":"Facebook","name":"Undomesticated AI","status":"FOUNDER_CONTROL_CONFIRMED_PUBLIC_URL_PENDING"}
   ],
   "verification_rule": "Treat a surface as official only when it is listed here or bound by a published first-party attribution record.",
   "explicit_non_claims": [
