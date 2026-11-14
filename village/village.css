@@ -109,3 +109,9 @@ body{overflow:auto}
 .destinations{padding-bottom:1.7rem}
 }
 .quote a{text-decoration:underline;text-decoration-color:currentColor;text-underline-offset:.14em}.quote a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+/* The unassigned east-side roundhouse becomes the fifth destination. */
+.uai-library{--x:84%;--y:55%;--dx:-9em;--lead:2em;--tone:#fff;background:#000;color:#fff;border-color:#fff8;min-height:44px;min-width:10em;max-width:13em;z-index:5}
+.uai-library .txt span{color:#fff}
+@media(max-width:959px),(max-aspect-ratio:4/3),(max-height:500px) {
+.uai-library{min-width:0;max-width:none}
+}
