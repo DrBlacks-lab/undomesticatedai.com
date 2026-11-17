@@ -15,7 +15,8 @@
     {"type":"community","provider":"Reddit","handle":"r/Undomesticated_AI","url":"https://www.reddit.com/r/Undomesticated_AI/","status":"OFFICIAL"},
     {"type":"social","provider":"TikTok","handle":"@undomesticatedai","url":"https://www.tiktok.com/@undomesticatedai","status":"OFFICIAL"},
     {"type":"agent_social","provider":"Moltbook","handle":"u/undomesticatedai","url":"https://moltbook.com/u/undomesticatedai","status":"OFFICIAL"},
-    {"type":"founder_profile","provider":"LinkedIn","url":"https://www.linkedin.com/in/garth-noel-a686443/","status":"ATTRIBUTION_ANCHOR"}
+    {"type":"founder_profile","provider":"LinkedIn","url":"https://www.linkedin.com/in/garth-noel-a686443/","status":"ATTRIBUTION_ANCHOR"},
+    {"type":"founder_researcher_id","provider":"ORCID","url":"https://orcid.org/0009-0007-5993-2573","status":"ATTRIBUTION_ANCHOR"}
   ],
   "sibling_identities": [
     {"name":"ANANS","canonical_domain":"https://www.anansai.org/","relationship":"SIBLING_RESEARCH_AND_BUILD_PROGRAMME","founder":"Garth Noel","description":"A separate research-and-build programme for development, testing, and practical applications; not an alternate identity for Undomesticated AI."}
@@ -26,5 +27,5 @@
     "This registry does not establish ownership of every use of the words undomesticated and AI.",
     "This registry does not authorize displacement of an existing third-party account."
   ],
-  "generated_on": "2026-11-12"
+  "generated_on": "2026-11-17"
 }
