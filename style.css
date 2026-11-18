@@ -14,3 +14,8 @@
 .articlebody figure img{display:block;max-width:100%;height:auto}
 .articlebody figcaption{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;color:var(--soft);margin-top:.6rem}
 .articlelist .access{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin-top:.35rem}
+
+/* subscribe link on essay pages */
+.subscribe-note{max-width:var(--measure);border-left:2px solid var(--red);background:var(--paper2);padding:.9rem 1.1rem;margin:0 0 2rem;font-family:var(--sans);font-size:.95rem}
+.subscribe-note p{margin:0}
+.subscribe-note a{font-weight:700}
