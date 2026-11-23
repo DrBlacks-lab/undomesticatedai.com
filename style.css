@@ -19,3 +19,6 @@
 .subscribe-note{max-width:var(--measure);border-left:2px solid var(--red);background:var(--paper2);padding:.9rem 1.1rem;margin:0 0 2rem;font-family:var(--sans);font-size:.95rem}
 .subscribe-note p{margin:0}
 .subscribe-note a{font-weight:700}
+.pagehero .standard-line{max-width:var(--measure);font-family:var(--sans);font-size:1rem;color:var(--soft)}
+.pagehero .offer-note{margin:1.4rem 0 0}
+.pagehero .offer-note p{font-size:1rem;margin:0}

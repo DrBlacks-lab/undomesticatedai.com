@@ -109,3 +109,14 @@ body{overflow:auto}
 .destinations{padding-bottom:1.7rem}
 }
 .quote a{text-decoration:underline;text-decoration-color:currentColor;text-underline-offset:.14em}.quote a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.offer{position:relative;z-index:11;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 1rem;padding:.2rem clamp(1rem,3vw,3rem);background:rgba(3,10,8,.9);border-bottom:1px solid rgba(229,185,94,.45);font-size:.85rem;line-height:1.3;color:var(--ink);text-align:center}
+.offer p{margin:.4rem 0}
+.offer a{display:inline-flex;align-items:center;min-height:44px;font-weight:800;color:var(--gold);text-underline-offset:.15em}
+.offer a:hover{color:var(--ink)}
+.offer a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+@media(min-width:960px) and (aspect-ratio > 4/3) and (height > 500px) {
+.quote{top:calc(clamp(5rem,10vh,7rem) + 3.25rem)}
+}
+@media(forced-colors:active) {
+.offer{border-bottom:1px solid CanvasText}
+}
