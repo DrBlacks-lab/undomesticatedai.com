@@ -19,3 +19,4 @@
 .subscribe-note{max-width:var(--measure);border-left:2px solid var(--red);background:var(--paper2);padding:.9rem 1.1rem;margin:0 0 2rem;font-family:var(--sans);font-size:.95rem}
 .subscribe-note p{margin:0}
 .subscribe-note a{font-weight:700}
+.support-link{margin-top:.5rem !important}
