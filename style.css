@@ -19,4 +19,7 @@
 .subscribe-note{max-width:var(--measure);border-left:2px solid var(--red);background:var(--paper2);padding:.9rem 1.1rem;margin:0 0 2rem;font-family:var(--sans);font-size:.95rem}
 .subscribe-note p{margin:0}
 .subscribe-note a{font-weight:700}
-.support-link{margin-top:.5rem !important}
+.support-link{margin-top:.7rem !important}
+.subscribe-note a.support-button{display:inline-block;margin:.35rem 0 0 .2rem;padding:.5rem .95rem;background:var(--red);color:#fff;text-decoration:none;font-weight:700;letter-spacing:.01em}
+.subscribe-note a.support-button:hover{background:var(--ink);color:var(--paper)}
+.nav a.nav-support{color:var(--red);font-weight:700}
