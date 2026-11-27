@@ -23,3 +23,8 @@
 .subscribe-note a.support-button{display:inline-block;margin:.35rem 0 0 .2rem;padding:.5rem .95rem;background:var(--red);color:#fff;text-decoration:none;font-weight:700;letter-spacing:.01em}
 .subscribe-note a.support-button:hover{background:var(--ink);color:var(--paper)}
 .nav a.nav-support{color:var(--red);font-weight:700}
+.essay-comments{max-width:var(--measure);border-top:2px solid var(--ink);padding-top:1.2rem;margin:0 0 2rem;font-family:var(--sans);font-size:.95rem}
+.essay-comments h2{font-size:1.25rem;margin:0 0 .6rem}
+.essay-comments p{margin:0 0 .6rem}
+.essay-comments a.comments-button{display:inline-block;padding:.5rem .95rem;border:1px solid var(--ink);text-decoration:none;font-weight:700}
+.essay-comments a.comments-button:hover{background:var(--ink);color:var(--paper)}
